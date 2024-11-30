@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
+import logo from '../assets/logo2.png';
 
 const Navbar = () => {
   const scrollLinks = ['Schedule', 'Venue', 'Prizes', 'Tracks', 'Sponsors', 'Contact Us'];
@@ -37,11 +38,21 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16">
+        <RouterLink to="/" className="ml-10">
+            <motion.img
+              src={logo}
+              alt="Aurorix Logo"
+              className="h-12 w-auto cursor-pointer mr-[180px]"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            />
+          </RouterLink>
+
           <motion.div
             variants={navVariants}
             initial="hidden"
             animate="visible"
-            className="flex justify-center items-center"
+            className="flex-1 justify-center items-center"
           >
             <div className="flex items-center space-x-12">
               {scrollLinks.map((link) => (
