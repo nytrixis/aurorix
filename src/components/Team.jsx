@@ -221,7 +221,8 @@ const hackathonElves = [
   },
   {
     name: "Shelly Bhattacharjee",
-    role: v4,
+    role: "Event Coordinator",
+    image: v4,
     linkedin: "https://linkedin.com/in/vol1",
     twitter: "https://twitter.com/vol1"
   },
