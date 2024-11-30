@@ -152,6 +152,7 @@ const LandingPage = () => {
 
 
 <motion.section
+id="schedule"
   className="min-h-screen relative flex items-center justify-center py-20 overflow-hidden"
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
@@ -199,6 +200,7 @@ const LandingPage = () => {
 </motion.section>
 
 <motion.section
+id="venue"
   className="min-h-screen relative flex items-center justify-center py-20 overflow-hidden"
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
@@ -283,6 +285,7 @@ const LandingPage = () => {
 <Awards />
 
 <motion.section
+id="tracks"
   className="min-h-screen relative flex items-center justify-center py-20 overflow-hidden"
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
@@ -330,6 +333,7 @@ const LandingPage = () => {
 </motion.section>
 
 <motion.section
+id='sponsors'
   className="min-h-screen relative flex items-center justify-center py-20 overflow-hidden"
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}

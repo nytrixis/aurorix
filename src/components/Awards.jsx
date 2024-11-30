@@ -6,6 +6,7 @@ import trophy3 from '../assets/trophy3.png';
 const Awards = () => {
   return (
     <motion.section 
+    id='prizes'
       className="min-h-screen relative py-32 px-8"
       style={{
         background: 'linear-gradient(180deg, rgb(99,38,166) 0%, rgb(88, 28, 135) 50%, rgb(0,0,0) 100%)'
