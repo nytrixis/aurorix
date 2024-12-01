@@ -312,7 +312,7 @@ id="tracks"
           transition={{ duration: 1.2 }}
           viewport={{ once: true }}
         >
-          TRACKS
+          EXPLORE THE
         </motion.h2>
 
         <motion.h3
@@ -322,7 +322,7 @@ id="tracks"
           transition={{ duration: 1, delay: 0.8 }}
           viewport={{ once: true }}
         >
-          CLIMB UP THE
+          TRACKS
         </motion.h3>
       </div>
       <motion.h3
@@ -361,7 +361,7 @@ id='sponsors'
           transition={{ duration: 1.2 }}
           viewport={{ once: true }}
         >
-          SPONSORS
+          MEET OUR
         </motion.h2>
 
         <motion.h3
@@ -371,7 +371,7 @@ id='sponsors'
           transition={{ duration: 1, delay: 0.8 }}
           viewport={{ once: true }}
         >
-          MEET OUR
+          SPONSORS
         </motion.h3>
       </div>
       <motion.h3
