@@ -52,7 +52,7 @@ const Awards = () => {
     <motion.img
       src={trophy2}
       alt="1st Runner Up"
-      className="w-[300px] h-[320px] object-contain mb-3 drop-shadow-[0_35px_35px_rgba(192,192,192,0.2)]" // Adjusted size
+      className="w-[300px] h-[320px] object-contain mb-7 drop-shadow-[0_35px_35px_rgba(192,192,192,0.2)]" // Adjusted size
       whileHover={{ scale: 1.1 }}
     />
     <motion.h4 
@@ -65,7 +65,17 @@ const Awards = () => {
     >
       1st Runner Up
     </motion.h4>
-    <motion.p className="text-4xl font-harryp text-yellow-500">30,000 INR</motion.p>
+    <motion.p 
+  className="text-4xl font-harryp"
+  style={{
+    background: 'linear-gradient(45deg, #B8860B, #FFD700, #DAA520)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    textShadow: '0 0 10px rgba(218,165,32,0.3)'
+  }}
+>
+  30,000 INR
+</motion.p>
   </motion.div>
 
   {/* Champions */}
@@ -78,7 +88,7 @@ const Awards = () => {
     <motion.img
       src={trophy1}
       alt="Champions"
-      className="w-[380px] h-[400px] object-contain mb-5 drop-shadow-[0_35px_35px_rgba(59,130,246,0.3)]" // Exact size specified
+      className="w-[380px] h-[400px] object-contain mb-8 drop-shadow-[0_35px_35px_rgba(59,130,246,0.3)]" // Exact size specified
       whileHover={{ scale: 1.1 }}
     />
     <motion.h4 
@@ -92,7 +102,17 @@ const Awards = () => {
     >
       Champions
     </motion.h4>
-    <motion.p className="text-5xl font-harryp text-yellow-500">50,000 INR</motion.p>
+    <motion.p 
+  className="text-5xl font-harryp"
+  style={{
+    background: 'linear-gradient(45deg, #B8860B, #FFD700, #DAA520)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    textShadow: '0 0 10px rgba(218,165,32,0.3)'
+  }}
+>
+  50,000 INR
+</motion.p>
   </motion.div>
 
   {/* 2nd Runner Up */}
@@ -105,7 +125,7 @@ const Awards = () => {
     <motion.img
       src={trophy3}
       alt="2nd Runner Up"
-      className="w-[300px] h-[320px] object-contain mb-3 drop-shadow-[0_35px_35px_rgba(205,127,50,0.2)]" // Adjusted size
+      className="w-[300px] h-[320px] object-contain mb-5 drop-shadow-[0_35px_35px_rgba(205,127,50,0.2)]" // Adjusted size
       whileHover={{ scale: 1.1 }}
     />
     <motion.h4 
@@ -118,7 +138,17 @@ const Awards = () => {
     >
       2nd Runner Up
     </motion.h4>
-    <motion.p className="text-4xl font-harryp text-yellow-500">20,000 INR</motion.p>
+    <motion.p 
+  className="text-4xl font-harryp"
+  style={{
+    background: 'linear-gradient(45deg, #B8860B, #FFD700, #DAA520)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    textShadow: '0 0 10px rgba(218,165,32,0.3)'
+  }}
+>
+  20,000 INR
+</motion.p>
   </motion.div>
 </div>
 

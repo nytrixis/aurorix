@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import hero from '../assets/hero.png';
+import hero from '../assets/bg1.jpg';
 import { FaDiscord } from 'react-icons/fa';
 import heading from '../assets/heading.png';
 import Timeline from './Timeline';
@@ -16,7 +16,7 @@ const LandingPage = () => {
       {/* Hero Background */}
       <div className="absolute inset-0 w-full h-full">
         <img src={hero} alt="Hero" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/30" /> {/* Overlay for better text visibility */}
+        <div className="absolute inset-0 bg-black/50" /> {/* Overlay for better text visibility */}
       </div>
 
       {/* Content Container */}
@@ -38,7 +38,7 @@ const LandingPage = () => {
     alt="Aurorix Heading" 
     className="w-full h-auto"
   />
-  <div className="absolute inset-0 bg-black/20" /> {/* Dark overlay */}
+  <div className="absolute inset-0" /> {/* Dark overlay */}
 </motion.div>
 
         <motion.h2
@@ -78,7 +78,7 @@ const LandingPage = () => {
   >
     <span className="absolute right-full w-full h-full bg-violet-500 group-hover:right-0 transition-all duration-300 ease-in-out" />
     <span className="relative flex items-center gap-2 z-10">
-      <FaDiscord className="text-2xl" />
+      
       Register with Devfolio
     </span>
   </motion.button>
