@@ -242,7 +242,7 @@ id="venue"
 
       {/* Map Container */}
       <motion.div 
-        className="w-[800px] aspect-video mb-8 border-2 border-violet-500 rounded-lg overflow-hidden"
+        className="w-[800px] aspect-video mb-8 border-2 border-violet-500 rounded-lg overflow-hidden z-10"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -274,15 +274,20 @@ id="venue"
 
       {/* Map Button */}
       <motion.a
-        href="https://www.google.com/maps/place/Dr.+B.+C.+Roy+Engineering+College/@23.5450101,87.3401785,1040m/data=!3m1!1e3!4m6!3m5!1s0x39f7702b5678153d:0x4ff5ac811ba3184b!8m2!3d23.544417!4d87.3416929!16s%2Fm%2F03cszzz?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-8 py-3 bg-transparent border-2 border-violet-500 rounded-lg font-almendra text-violet-400 hover:bg-violet-500 hover:text-white transition-all duration-300"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        View in Google Maps
-      </motion.a>
+  href="https://www.google.com/maps/place/Dr.+B.+C.+Roy+Engineering+College/@23.5450101,87.3401785,1040m/data=!3m1!1e3!4m6!3m5!1s0x39f7702b5678153d:0x4ff5ac811ba3184b!8m2!3d23.544417!4d87.3416929!16s%2Fm%2F03cszzz?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex px-8 py-3 bg-transparent border-2 border-violet-500 rounded-lg font-almendra text-violet-400 hover:bg-violet-500 hover:text-white transition-all duration-300 z-10"
+  initial={false}
+  animate={{ scale: 1 }}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  View in Google Maps
+</motion.a>
+
+
+
     </div>
   </div>
 </motion.section>
