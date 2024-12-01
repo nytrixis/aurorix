@@ -77,7 +77,7 @@ const Navbar = () => {
     <motion.img
       src={heading}
       alt="Aurorix Heading"
-      className="h-[50px] w-auto ml-4 mr-[150px]"
+      className="h-7 w-auto ml-4 mr-[150px]"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     />

@@ -287,7 +287,7 @@ const TeamSection = ({ title, members }) => {
   {members.map((member, index) => (
     <motion.div
       key={member.name}
-      className="relative group w-full max-w-sm" // Added max-width for better control
+      className="relative group w-full max-w-sm"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1 }}
@@ -327,9 +327,9 @@ const Team = () => {
     <section className="min-h-screen py-32 px-8 bg-gradient-to-b from-violet-900 via-purple-900 to-black">
       <div className="max-w-7xl mx-auto">
         {/* Title */}
-        <div className="relative h-32 flex items-center justify-center mb-20">
+        <div className="relative h-32 flex items-center justify-center mb-4">
           <motion.h2
-            className="text-[120px] font-bold text-white/5 absolute pointer-events-none whitespace-nowrap"
+            className="text-[90px] font-bold text-white/5 absolute pointer-events-none whitespace-nowrap"
             initial={{ opacity: 0, scale: 1.3 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2 }}
@@ -339,7 +339,7 @@ const Team = () => {
           </motion.h2>
 
           <motion.h3
-            className="text-4xl font-almendra text-violet-400 text-center relative z-10"
+            className="text-3xl font-almendra text-violet-400 text-center relative z-10"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
@@ -351,7 +351,7 @@ const Team = () => {
 
         {/* Tagline */}
         <motion.p
-          className="text-2xl text-center text-violet-300/80 font-almendra mb-20"
+          className="text-2xl text-center text-violet-300/80 font-almendra mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
