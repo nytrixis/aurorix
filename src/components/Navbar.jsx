@@ -38,6 +38,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16">
+        <RouterLink to="/">
         <ScrollLink 
   to="hero"
   spy={true}
@@ -53,6 +54,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             />
           </ScrollLink>
+          </RouterLink>
 
           <motion.div
             variants={navVariants}
