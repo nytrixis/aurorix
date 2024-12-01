@@ -5,6 +5,7 @@ import { FaDiscord } from 'react-icons/fa';
 import heading from '../assets/heading.png';
 import Timeline from './Timeline';
 import Awards from './Awards';
+import StarBackground from './Stars';
 // import { SiDevPost } from 'react-icons/si';
 
 const LandingPage = () => {
@@ -110,6 +111,7 @@ const LandingPage = () => {
     background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
   }}
 >
+  <StarBackground />
   <div className="max-w-5xl mx-auto">
     <div className="flex flex-col items-center">
       <div className="relative h-32 flex items-center justify-center mb-10">
@@ -165,6 +167,7 @@ id="schedule"
     background: 'linear-gradient(180deg, rgba(99,38,166,1) 0%, rgba(28,7,48,1) 50%, rgba(0,0,0,1) 100%)'
   }}
 >
+<StarBackground />
   <div className="max-w-5xl mx-auto">
     <div className="flex flex-col items-center">
       <div className="relative h-32 flex items-center justify-center mb-20">
@@ -213,6 +216,7 @@ id="venue"
     background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
   }}
 >
+<StarBackground />
   <div className="max-w-5xl mx-auto">
     <div className="flex flex-col items-center">
       <div className="relative h-32 flex items-center justify-center mb-20">
@@ -298,6 +302,7 @@ id="tracks"
     background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
   }}
 >
+<StarBackground />
   <div className="max-w-5xl mx-auto">
     <div className="flex flex-col items-center">
       <div className="relative h-32 flex items-center justify-center mb-20">
@@ -346,6 +351,7 @@ id='sponsors'
     background: 'linear-gradient(180deg, rgba(99,38,166,1) 0%, rgba(28,7,48,1) 50%, rgba(0,0,0,1) 100%)'
   }}
 >
+<StarBackground />
   <div className="max-w-5xl mx-auto">
     <div className="flex flex-col items-center">
       <div className="relative h-32 flex items-center justify-center mb-20">

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import trophy1 from '../assets/trophy1.png';
 import trophy2 from '../assets/trophy2.png';
 import trophy3 from '../assets/trophy3.png';
+import StarBackground from './Stars';
 
 const Awards = () => {
   return (
@@ -12,6 +13,7 @@ const Awards = () => {
         background: 'linear-gradient(180deg, rgb(99,38,166) 0%, rgb(88, 28, 135) 50%, rgb(0,0,0) 100%)'
       }}
     >
+        <StarBackground />
       {/* Title */}
       <div className="max-w-5xl mx-auto">
   <div className="flex flex-col items-center">
