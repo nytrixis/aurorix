@@ -5,7 +5,7 @@ import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
 import Team from './components/Team';
 import Footer from './components/Footer';
-
+import Fly from './components/Fly';
 function App() {
   const [showLanding, setShowLanding] = useState(false);
 
@@ -20,6 +20,7 @@ function App() {
       ) : (
         <div>
           <Navbar />
+          <Fly />
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/team" element={<Team />} />

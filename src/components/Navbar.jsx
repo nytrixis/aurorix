@@ -4,6 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import logo from '../assets/logo2.png';
 import { useLocation } from 'react-router-dom';
+import heading from '../assets/heading2.png';
 
 const Navbar = () => {
   const scrollLinks = ['Schedule', 'Venue', 'Prizes', 'Tracks', 'Sponsors', 'Contact Us'];
@@ -42,32 +43,47 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16">
         {isHomePage ? (
-      <ScrollLink 
-        to="hero"
-        spy={true}
-        smooth={true}
-        duration={500}
-        className="ml-10"
-      >
-        <motion.img
-          src={logo}
-          alt="Aurorix Logo"
-          className="h-12 w-auto cursor-pointer mr-[180px]"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        />
-      </ScrollLink>
-    ) : (
-      <RouterLink to="/" className="ml-10">
-        <motion.img
-          src={logo}
-          alt="Aurorix Logo"
-          className="h-12 w-auto cursor-pointer mr-[180px]"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        />
-      </RouterLink>
-    )}
+  <ScrollLink
+    to="hero"
+    spy={true}
+    smooth={true}
+    duration={500}
+    className="ml-1 flex items-center"
+  >
+    <motion.img
+      src={logo}
+      alt="Aurorix Logo"
+      className="h-12 w-auto cursor-pointer"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    />
+    <motion.img
+      src={heading}
+      alt="Aurorix Heading"
+      className="h-7 w-auto ml-4 mr-[150px]"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    />
+  </ScrollLink>
+) : (
+  <RouterLink to="/" className="ml-1 flex items-center">
+    <motion.img
+      src={logo}
+      alt="Aurorix Logo"
+      className="h-12 w-auto cursor-pointer"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    />
+    <motion.img
+      src={heading}
+      alt="Aurorix Heading"
+      className="h-[50px] w-auto ml-4 mr-[150px]"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    />
+  </RouterLink>
+)}
+
           <motion.div
             variants={navVariants}
             initial="hidden"

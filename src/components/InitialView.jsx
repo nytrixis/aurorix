@@ -95,8 +95,8 @@ const InitialView = ({ onComplete }) => {
         />
   <motion.div className="title-container">
     <SmokeEffect />
-    <motion.h1 className="main-title">
-      {"Aurorix 2025".split("").map((char, index) => (
+    <motion.h2 className="main-title">
+      {"AUORORIX: CHAPTER 1".split("").map((char, index) => (
         <motion.span
           key={index}
           initial={{ opacity: 0 }}
@@ -110,7 +110,7 @@ const InitialView = ({ onComplete }) => {
           {char}
         </motion.span>
       ))}
-    </motion.h1>
+    </motion.h2>
     <motion.p
   className="tagline"
   initial={{ opacity: 0 }}

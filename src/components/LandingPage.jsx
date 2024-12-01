@@ -39,11 +39,10 @@ const LandingPage = () => {
     alt="Aurorix Heading" 
     className="w-full h-auto"
   />
-  <div className="absolute inset-0" /> {/* Dark overlay */}
 </motion.div>
 
         <motion.h2
-          className="text-3xl font-almendra text-[#C0C0C0] mb-1"
+          className="text-2xl font-almendra text-[#C0C0C0] mb-1"
           style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
