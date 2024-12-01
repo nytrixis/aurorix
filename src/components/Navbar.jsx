@@ -3,9 +3,12 @@ import { motion } from 'framer-motion';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import logo from '../assets/logo2.png';
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const scrollLinks = ['Schedule', 'Venue', 'Prizes', 'Tracks', 'Sponsors', 'Contact Us'];
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   const navVariants = {
     hidden: { opacity: 0, y: -20 },
@@ -38,24 +41,33 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16">
-        <RouterLink to="/">
-        <ScrollLink 
-  to="hero"
-  spy={true}
-  smooth={true}
-  duration={500}
-  className="ml-10"
->
-            <motion.img
-              src={logo}
-              alt="Aurorix Logo"
-              className="h-12 w-auto cursor-pointer mr-[180px]"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            />
-          </ScrollLink>
-          </RouterLink>
-
+        {isHomePage ? (
+      <ScrollLink 
+        to="hero"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="ml-10"
+      >
+        <motion.img
+          src={logo}
+          alt="Aurorix Logo"
+          className="h-12 w-auto cursor-pointer mr-[180px]"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        />
+      </ScrollLink>
+    ) : (
+      <RouterLink to="/" className="ml-10">
+        <motion.img
+          src={logo}
+          alt="Aurorix Logo"
+          className="h-12 w-auto cursor-pointer mr-[180px]"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        />
+      </RouterLink>
+    )}
           <motion.div
             variants={navVariants}
             initial="hidden"
