@@ -10,7 +10,9 @@ import Awards from './Awards';
 const LandingPage = () => {
   return (
     <div className="flex flex-col">
-    <div className="relative min-h-screen flex flex-col items-center justify-center">
+    <div 
+    id="hero"
+    className="relative min-h-screen flex flex-col items-center justify-center">
       {/* Hero Background */}
       <div className="absolute inset-0 w-full h-full">
         <img src={hero} alt="Hero" className="w-full h-full object-cover" />
@@ -19,6 +21,7 @@ const LandingPage = () => {
 
       {/* Content Container */}
       <motion.div 
+      
         className="relative z-10 flex flex-col items-center justify-center gap-6 translate-y-[170px]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

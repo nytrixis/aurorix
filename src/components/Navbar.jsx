@@ -38,7 +38,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16">
-        <RouterLink to="/" className="ml-10">
+        <ScrollLink 
+  to="hero"
+  spy={true}
+  smooth={true}
+  duration={500}
+  className="ml-10"
+>
             <motion.img
               src={logo}
               alt="Aurorix Logo"
@@ -46,7 +52,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             />
-          </RouterLink>
+          </ScrollLink>
 
           <motion.div
             variants={navVariants}
