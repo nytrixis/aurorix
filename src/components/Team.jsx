@@ -107,8 +107,8 @@ const pixelAlchemists = [
     name: "Nidhi Kumari Hari",
     role: "Visionbinder",
     image: dt2,
-    linkedin: "https://linkedin.com/in/design2",
-    twitter: "https://twitter.com/design2"
+    linkedin: "https://www.linkedin.com/in/nidhi-hari-111672298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/NidhiHari05"
   },
   {
     name: "Simran Kumari",
@@ -162,8 +162,8 @@ const talentSummoners = [
     name: "Kumar Hrishav",
     role: "Mystery Sorter",
     image: cs1,
-    linkedin: "https://linkedin.com/in/hr1",
-    twitter: "https://twitter.com/hr1"
+    linkedin: "https://www.linkedin.com/in/kumar-hrishav-407b8a24a/",
+    twitter: "https://x.com/ImKhrishavv?t=g1D413Q64wUr7eJf3FgN_Q&s=09 "
   },
   {
     name: "Ritik Maity",
