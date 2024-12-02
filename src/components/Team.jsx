@@ -38,22 +38,22 @@ const architectWizards = [
     name: "Nandini Pandey",
     role: "Lead Organizer",
     image:  or1,
-    linkedin: "https://linkedin.com/in/username1",
-    x: "https://twitter.com/username1"
+    linkedin: "https://linkedin.com/in/nytrixis",
+    x: "https://x.com/nytrixis"
   },
   {
     name: "Meraj Hussain",
     role: "Co-Lead Organizer",
     image: or2,
-    linkedin: "https://linkedin.com/in/username2",
-    x: "https://twitter.com/username1"
+    linkedin: "https://linkedin.com/in/meraj00",
+    x: "https://x.com/gh0st__FREAK"
   },
   {
     name: "Priyanshu Debnath",
     role: "Treasurer",
     image: or3,
-    linkedin: "https://linkedin.com/in/username3",
-    x: "https://twitter.com/username1"
+    linkedin: "https://linkedin.com/in/PriyanshuDebnath0071",
+    x: "https://x.com/PriyanshuD41557"
   }
 ];
 
