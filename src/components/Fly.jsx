@@ -49,7 +49,7 @@ const FlyingHarry = () => {
       <motion.img
         src={harryBroom}
         alt=""
-        className="w-[100px] h-auto absolute"
+        className="w-[80px] h-auto absolute"
         style={{ x, y }}
       />
     </div>
