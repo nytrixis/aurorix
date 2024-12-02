@@ -138,7 +138,7 @@ const socialSpellbinders = [
     name: "Sourav Sandilya",
     role: "Community Manager",
     image: pr3,
-    linkedin: "https://linkedin.com/in/social3",
+    linkedin: "https://www.linkedin.com/in/sourav-sandilya-76191222a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://twitter.com/social3"
   },
   {
@@ -247,8 +247,8 @@ const hackathonElves = [
     name: "Isha Jaiswal",
     role: "Event Coordinator",
     image: v7,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/isha-jaiswal-ab4449317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/IshaJai2804"
   },
   {
     name: "Aditya Kumar",
