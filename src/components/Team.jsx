@@ -95,21 +95,21 @@ const digitalSpellcasters = [
 const pixelAlchemists = [
   {
     name: "Saptarshi Maji",
-    role: "UI/UX Lead",
+    role: "GraphiX Enchanter",
     image: dt3,
     linkedin: "https://linkedin.com/in/design1",
     twitter: "https://twitter.com/design1"
   },
   {
     name: "Nidhi Kumari Hari",
-    role: "Visual Designer",
+    role: "Visionbinder",
     image: dt2,
     linkedin: "https://linkedin.com/in/design2",
     twitter: "https://twitter.com/design2"
   },
   {
     name: "Simran Kumari",
-    role: "Motion Designer",
+    role: "Illusioneer",
     image: dt1,
     linkedin: "https://linkedin.com/in/design3",
     twitter: "https://twitter.com/design3"
@@ -126,7 +126,7 @@ const socialSpellbinders = [
   },
   {
     name: "Yashashvi Dubey",
-    role: "Content Creator",
+    role: "Trend Enchanter",
     image: pr2,
     linkedin: "https://linkedin.com/in/social2",
     twitter: "https://twitter.com/social2"
@@ -140,7 +140,7 @@ const socialSpellbinders = [
   },
   {
     name: "Sayon Ghosh",
-    role: "Social Strategist",
+    role: "Content Creator",
     image: pr4,
     linkedin: "https://linkedin.com/in/social4",
     twitter: "https://twitter.com/social4"
@@ -157,7 +157,7 @@ const socialSpellbinders = [
 const talentSummoners = [
   {
     name: "Kumar Hrishav",
-    role: "HR Lead",
+    role: "Mystery Sorter",
     image: cs1,
     linkedin: "https://linkedin.com/in/hr1",
     twitter: "https://twitter.com/hr1"
