@@ -62,33 +62,36 @@ const digitalSpellcasters = [
     name: "Pragati Priya",
     role: "Techno Wizard",
     image: tt1,
-    linkedin: "https://linkedin.com/in/dev1"
+    linkedin: "https://www.linkedin.com/in/pragati-priya-3a5aaa283/",
+    twitter: "https://x.com/pragati100pr"
   },
   {
     name: "Shubhranil Kundu",
     role: "Hex Handler",
     image: tt2,
-    linkedin: "https://linkedin.com/in/dev2"
+    linkedin: "https://www.linkedin.com/in/shubhranil-kundu-31baaa293/",
+    twitter: "https://x.com/Shubhranil894?t=wKfWeACXeMd2o_1pO04RKw&s=09"
   },
   {
     name: "Priyanshu Singh",
     role: "Charm Programmer",
     image: tt3,
-    linkedin: "https://linkedin.com/in/dev3"
+    linkedin: "https://www.linkedin.com/in/priyanshu-singh-45572b304?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BylhFT4e5RROBFS9Ho%2BIgbQ%3D%3D",
+    twitter: "https://x.com/Priyans14250036?t=JFE69XuAdlvUvix3vQ7EFQ&s=09"
   },
   {
     name: "Anisha Kundu",
     role: "Code Charmer",
     image: tt4,
-    linkedin: "https://linkedin.com/in/dev4",
-    twitter: "https://twitter.com/dev4"
+    linkedin: "https://www.linkedin.com/in/anisha-kundu-91a85a264",
+    twitter: "https://x.com/KunduAnish21799"
   },
   {
     name: "Sudipta Banerjee",
     role: "Enchantix Dev",
     image: tt5,
-    linkedin: "https://linkedin.com/in/dev4",
-    twitter: "https://twitter.com/dev4"
+    linkedin: "https://www.linkedin.com/in/sudiptabanerjee03",
+    twitter: "https://x.com/Sudipta223?t=OhxgbRf5VX34ZxD-HPvurw&s=09"
   }
 ];
 
@@ -97,8 +100,8 @@ const pixelAlchemists = [
     name: "Saptarshi Maji",
     role: "GraphiX Enchanter",
     image: dt3,
-    linkedin: "https://linkedin.com/in/design1",
-    twitter: "https://twitter.com/design1"
+    linkedin: "https://www.linkedin.com/in/saptarshi-maji-b3536627b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/SaptarshiMaji13?t=FH0qmx_cNtFMWsv9jzJrCQ&s=09"
   },
   {
     name: "Nidhi Kumari Hari",
@@ -111,8 +114,8 @@ const pixelAlchemists = [
     name: "Simran Kumari",
     role: "Illusioneer",
     image: dt1,
-    linkedin: "https://linkedin.com/in/design3",
-    twitter: "https://twitter.com/design3"
+    linkedin: "https://www.linkedin.com/in/simran-m93?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/SimranKuma64244"
   }
 ];
 
@@ -128,8 +131,8 @@ const socialSpellbinders = [
     name: "Yashashvi Dubey",
     role: "Trend Enchanter",
     image: pr2,
-    linkedin: "https://linkedin.com/in/social2",
-    twitter: "https://twitter.com/social2"
+    linkedin: "https://www.linkedin.com/in/yashashvi-dubey-92a3862a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/YashashviDube14"
   },
   {
     name: "Sourav Sandilya",
@@ -142,14 +145,14 @@ const socialSpellbinders = [
     name: "Sayon Ghosh",
     role: "Content Creator",
     image: pr4,
-    linkedin: "https://linkedin.com/in/social4",
-    twitter: "https://twitter.com/social4"
+    linkedin: "https://www.linkedin.com/in/sayon-ghosh-643029298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/sayonghosh619?t=s4vVf7wP8sUatt0DJmyqUA&s=09"
   },
   {
     name: "Devesh Jha",
     role: "Engagement Wizard",
     image: pr5,
-    linkedin: "https://linkedin.com/in/social5",
+    linkedin: "https://www.linkedin.com/in/devesh-jha-a23527320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://twitter.com/social5"
   }
 ];
@@ -166,14 +169,14 @@ const talentSummoners = [
     name: "Ritik Maity",
     role: "Talent Scout",
     image: cs2,
-    linkedin: "https://linkedin.com/in/hr2",
+    linkedin: "https://www.linkedin.com/in/ritik-maity-a935a2269",
     twitter: "https://twitter.com/hr2"
   },
   {
     name: "Tanmoy Sural",
     role: "Team Builder",
     image: cs3,
-    linkedin: "https://linkedin.com/in/hr3",
+    linkedin: "https://www.linkedin.com/in/tanmoy-sural-b9289a30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     twitter: "https://twitter.com/hr3"
   }
 ];
@@ -209,29 +212,29 @@ const hackathonElves = [
     name: "Koustav Chatterjee",
     role: "Event Coordinator",
     image: v2,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/koustav-chatterjee-b67ba9250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/buck_moon_13"
   },
   {
     name: "Astha Shankar",
     role: "Event Coordinator",
     image: v3,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/astha-shankar-7598a52aa",
+    twitter: "https://x.com/astha78189"
   },
   {
     name: "Shelly Bhattacharjee",
     role: "Event Coordinator",
     image: v4,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/shelly-bhattacharjee-ba3360264",
+    twitter: "https://x.com/_S_h_e_l_l_y_10?t=WowkimCvVDPF-bW57Qzp7A&s=08"
   },
   {
     name: "Jhil Chatterjee",
     role: "Event Coordinator",
     image: v5,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/jhil-chatterjee-08122004d/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/jhil_chatterjee"
   },
   {
     name: "Ratnadeep Paul",
