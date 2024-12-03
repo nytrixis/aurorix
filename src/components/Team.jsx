@@ -124,8 +124,8 @@ const socialSpellbinders = [
     name: "Priya Rani",
     role: "Social Media Lead",
     image: pr1,
-    linkedin: "https://linkedin.com/in/social1",
-    twitter: "https://twitter.com/social1"
+    linkedin: "https://www.linkedin.com/in/priya-rani-270346290/",
+    twitter: "https://x.com/Priya8_creator"
   },
   {
     name: "Yashashvi Dubey",
@@ -139,7 +139,7 @@ const socialSpellbinders = [
     role: "Community Manager",
     image: pr3,
     linkedin: "https://www.linkedin.com/in/sourav-sandilya-76191222a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    twitter: "https://twitter.com/social3"
+    twitter: "https://x.com/NowhereSourav"
   },
   {
     name: "Sayon Ghosh",
@@ -153,7 +153,7 @@ const socialSpellbinders = [
     role: "Engagement Wizard",
     image: pr5,
     linkedin: "https://www.linkedin.com/in/devesh-jha-a23527320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    twitter: "https://twitter.com/social5"
+    twitter: "https://x.com/JhaDevesh_"
   }
 ];
 
@@ -240,8 +240,8 @@ const hackathonElves = [
     name: "Ratnadeep Paul",
     role: "Event Coordinator",
     image: v6,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/ratnadeep-paul-511114256",
+    twitter: "https://x.com/RatnadeepP2726"
   },
   {
     name: "Isha Jaiswal",
@@ -254,8 +254,8 @@ const hackathonElves = [
     name: "Aditya Kumar",
     role: "Event Coordinator",
     image: v8,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/aditya-kumar-892099293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
+    twitter: "https://x.com/Adityak45378762?t=NUEr1cY2P65AoVnZ1R_rCQ&s=08 "
   },
   {
     name: "Ranit Mondal",
@@ -268,8 +268,8 @@ const hackathonElves = [
     name: "Ritaja Mukherjee",
     role: "Event Coordinator",
     image: v10,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/ritaja-mukherjee-a99aa9288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/RitajaMukherjee"
   },
 ];
 
