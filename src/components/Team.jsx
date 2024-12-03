@@ -193,8 +193,8 @@ const systemNavigators = [
     name: "Saikat Karmakar",
     role: "System Engineer",
     image: vm2,
-    linkedin: "https://linkedin.com/in/sys2",
-    twitter: "https://twitter.com/sys2"
+    linkedin: "https://www.linkedin.com/in/saikat-karmakar-81a895258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
+    twitter: "https://x.com/SaikatKarm82123?t=kQG4qqYfNK7RFvMFcSjPuQ&s=08"
   }
 ];
 
@@ -371,7 +371,7 @@ const Team = () => {
         <TeamSection title="System Navigators" members={systemNavigators} />
         
         
-        <TeamSection title="Hackathon Elves" members={hackathonElves} />
+        <TeamSection title="Wandeteers" members={hackathonElves} />
       </div>
     </section>
   );
