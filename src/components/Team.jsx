@@ -177,7 +177,7 @@ const talentSummoners = [
     role: "Team Builder",
     image: cs3,
     linkedin: "https://www.linkedin.com/in/tanmoy-sural-b9289a30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    twitter: "https://twitter.com/hr3"
+    twitter: "https://x.com/SuralTanmo33684"
   }
 ];
 
