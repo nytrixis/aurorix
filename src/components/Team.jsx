@@ -203,70 +203,70 @@ const systemNavigators = [
 const hackathonElves = [
   {
     name: "Akash Ghosh",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v1,
     linkedin: "https://www.linkedin.com/in/akash-ghosh-549393212",
     twitter: "https://x.com/akashgghosh"
   },
   {
     name: "Koustav Chatterjee",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v2,
     linkedin: "https://www.linkedin.com/in/koustav-chatterjee-b67ba9250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/buck_moon_13"
   },
   {
     name: "Astha Shankar",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v3,
     linkedin: "https://www.linkedin.com/in/astha-shankar-7598a52aa",
     twitter: "https://x.com/astha78189"
   },
   {
     name: "Shelly Bhattacharjee",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v4,
     linkedin: "https://www.linkedin.com/in/shelly-bhattacharjee-ba3360264",
     twitter: "https://x.com/_S_h_e_l_l_y_10?t=WowkimCvVDPF-bW57Qzp7A&s=08"
   },
   {
     name: "Jhil Chatterjee",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v5,
     linkedin: "https://www.linkedin.com/in/jhil-chatterjee-08122004d/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/jhil_chatterjee"
   },
   {
     name: "Ratnadeep Paul",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v6,
     linkedin: "https://www.linkedin.com/in/ratnadeep-paul-511114256",
     twitter: "https://x.com/RatnadeepP2726"
   },
   {
     name: "Isha Jaiswal",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v7,
     linkedin: "https://www.linkedin.com/in/isha-jaiswal-ab4449317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/IshaJai2804"
   },
   {
     name: "Aditya Kumar",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v8,
     linkedin: "https://www.linkedin.com/in/aditya-kumar-892099293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
     twitter: "https://x.com/Adityak45378762?t=NUEr1cY2P65AoVnZ1R_rCQ&s=08 "
   },
   {
     name: "Ranit Mondal",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v9,
     linkedin: "https://linkedin.com/in/vol1",
     twitter: "https://twitter.com/vol1"
   },
   {
     name: "Ritaja Mukherjee",
-    role: "Event Coordinator",
+    role: "Wandeteer",
     image: v10,
     linkedin: "https://www.linkedin.com/in/ritaja-mukherjee-a99aa9288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/RitajaMukherjee"
@@ -371,7 +371,7 @@ const Team = () => {
         <TeamSection title="System Navigators" members={systemNavigators} />
         
         
-        <TeamSection title="Wandeteers" members={hackathonElves} />
+        <TeamSection title="Hackathon Elves" members={hackathonElves} />
       </div>
     </section>
   );
