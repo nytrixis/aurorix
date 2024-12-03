@@ -205,8 +205,8 @@ const hackathonElves = [
     name: "Akash Ghosh",
     role: "Event Coordinator",
     image: v1,
-    linkedin: "https://linkedin.com/in/vol1",
-    twitter: "https://twitter.com/vol1"
+    linkedin: "https://www.linkedin.com/in/akash-ghosh-549393212",
+    twitter: "https://x.com/akashgghosh"
   },
   {
     name: "Koustav Chatterjee",
