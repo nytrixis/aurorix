@@ -42,19 +42,20 @@ const architectWizards = [
     twitter: "https://x.com/nytrixis"
   },
   {
-    name: "Meraj Hussain",
-    role: "Co-Lead Organizer",
-    image: or2,
-    linkedin: "https://linkedin.com/in/meraj00",
-    twitter: "https://x.com/gh0st__FREAK"
-  },
-  {
     name: "Priyanshu Debnath",
     role: "Treasurer",
     image: or3,
     linkedin: "https://linkedin.com/in/PriyanshuDebnath0071",
     twitter: "https://x.com/PriyanshuD41557"
+  },
+  {
+    name: "Meraj Hussain",
+    role: "Co-Lead Organizer",
+    image: or2,
+    linkedin: "https://linkedin.com/in/meraj00",
+    twitter: "https://x.com/gh0st__FREAK"
   }
+  
 ];
 
 const digitalSpellcasters = [
