@@ -6,6 +6,7 @@ import heading from '../assets/heading.png';
 import Timeline from './Timeline';
 import Awards from './Awards';
 import StarBackground from './Stars';
+import Contactus from './Contactus';
 // import { SiDevPost } from 'react-icons/si';
 
 const LandingPage = () => {
@@ -57,11 +58,10 @@ const LandingPage = () => {
   animate={{ opacity: 1 }}
   transition={{ duration: 1.5, delay: 1.2 }}
 >
-  <span>Offline Mode</span>
+  <span>Online Mode</span>
   <span className="w-2 h-2 bg-violet-500 rounded-full"></span>
-  <span>21-23rd March, 2025</span>
-  <span className="w-2 h-2 bg-violet-500 rounded-full"></span>
-  <span>Durgapur, West Bengal</span>
+  <span>11th-13th April, 2025</span>
+
 </motion.div>
 
         <motion.div 
@@ -147,8 +147,12 @@ const LandingPage = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
         viewport={{ once: true }}
-      >
-        Our legacy isn't defined by accolades but by the meaningful change we strive to create. As the first-of-its-kind wizardry hackathon, we aim to foster innovation and creativity among college students, encouraging them to turn ideas into reality through passion and determination. Every project here is a testament to the grit, ingenuity, and hard work of its creators, and we are committed to ensuring that these efforts are recognized, celebrated, and rewarded. Together, we're building a future driven by purpose, where magic meets technology, and where dreams stand the test of time.
+      > <span>
+        Welcome to Aurorix, the first chapter of the story where technology meets wizardry! 🪄✨ Our mission is to build a thriving tech community for students from diverse colleges, providing them with a platform to innovate, collaborate, and gain real-world exposure. We believe that talent exists everywhere—it just needs the right opportunities. Through this hackathon, we’re creating a space where developers, designers, and visionaries can push the boundaries of imagination and technology. </span> <br></br><br></br>
+
+<span>This year’s theme, “Reimagine the Magic”, challenges participants to craft futuristic solutions inspired by the world of Hogwarts—AI-driven spellbooks, immersive AR experiences, enchanted security systems, and more! Beyond the hackathon, we’re building a long-term community where participants can find mentorship, team collaborations, industry exposure, and hands-on learning opportunities. Whether you’re here to cast the first spell in tech or conjure game-changing innovations, this is your chance to be part of something truly extraordinary.</span> <br></br><br></br>
+
+Join us, harness your magic, and let’s code the impossible! 🚀🔮
       </motion.p>
     </div>
   </div>
@@ -204,7 +208,7 @@ id="schedule"
   </div>
 </motion.section>
 
-<motion.section
+{/* <motion.section
 id="venue"
   className="min-h-screen relative flex items-center justify-center py-20 overflow-hidden"
   initial={{ opacity: 0 }}
@@ -241,7 +245,7 @@ id="venue"
       </div>
 
       {/* Map Container */}
-      <motion.div 
+      {/* <motion.div 
         className="w-[800px] aspect-video mb-8 border-2 border-violet-500 rounded-lg overflow-hidden z-10"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -259,7 +263,7 @@ id="venue"
       </motion.div>
 
       {/* Address */}
-      <motion.div
+      {/* <motion.div
         className="text-center mb-8"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -273,7 +277,7 @@ id="venue"
       </motion.div>
 
       {/* Map Button */}
-      <motion.a
+      {/* <motion.a
   href="https://www.google.com/maps/place/Dr.+B.+C.+Roy+Engineering+College/@23.5450101,87.3401785,1040m/data=!3m1!1e3!4m6!3m5!1s0x39f7702b5678153d:0x4ff5ac811ba3184b!8m2!3d23.544417!4d87.3416929!16s%2Fm%2F03cszzz?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
   target="_blank"
   rel="noopener noreferrer"
@@ -284,13 +288,13 @@ id="venue"
   whileTap={{ scale: 0.95 }}
 >
   View in Google Maps
-</motion.a>
+</motion.a> */}
 
 
 
-    </div>
+    {/* </div>
   </div>
-</motion.section>
+</motion.section> */} 
 
 
 <Awards />
@@ -303,7 +307,7 @@ id="tracks"
   transition={{ duration: 1 }}
   viewport={{ once: true }}
   style={{
-    background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
+    background: 'linear-gradient(180deg, rgb(99,38,166) 0%, rgb(88, 28, 135) 50%, rgb(0,0,0) 100%)'
   }}
 >
 <StarBackground />
@@ -352,7 +356,8 @@ id='sponsors'
   transition={{ duration: 1 }}
   viewport={{ once: true }}
   style={{
-    background: 'linear-gradient(180deg, rgba(99,38,166,1) 0%, rgba(28,7,48,1) 50%, rgba(0,0,0,1) 100%)'
+    
+    background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
   }}
 >
 <StarBackground />
@@ -393,6 +398,7 @@ id='sponsors'
   </div>
 </motion.section>
 
+<Contactus />
 </div>
 
 

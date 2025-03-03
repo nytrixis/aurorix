@@ -10,7 +10,8 @@ const Awards = () => {
     id='prizes'
       className="min-h-screen relative py-32 px-8"
       style={{
-        background: 'linear-gradient(180deg, rgb(99,38,166) 0%, rgb(88, 28, 135) 50%, rgb(0,0,0) 100%)'
+        
+        background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
       }}
     >
         <StarBackground />
@@ -76,7 +77,7 @@ const Awards = () => {
     textShadow: '0 0 10px rgba(218,165,32,0.3)'
   }}
 >
-  30,000 INR
+  15,000 INR
 </motion.p>
   </motion.div>
 
@@ -113,7 +114,7 @@ const Awards = () => {
     textShadow: '0 0 10px rgba(218,165,32,0.3)'
   }}
 >
-  50,000 INR
+  20,000 INR
 </motion.p>
   </motion.div>
 
@@ -149,7 +150,7 @@ const Awards = () => {
     textShadow: '0 0 10px rgba(218,165,32,0.3)'
   }}
 >
-  20,000 INR
+  10,000 INR
 </motion.p>
   </motion.div>
 </div>

@@ -365,14 +365,14 @@ const Team = () => {
 
         {/* Team Sections */}
         <TeamSection title="The Architect Wizards" members={architectWizards} />
-        <TeamSection title="Spell Coders" members={digitalSpellcasters} />
+        {/* <TeamSection title="Spell Coders" members={digitalSpellcasters} /> */}
         <TeamSection title="Pixel Alchemists" members={pixelAlchemists} />
         <TeamSection title="Social Spellbinders" members={socialSpellbinders} />
         <TeamSection title="Talent Summoners" members={talentSummoners} />
-        <TeamSection title="System Navigators" members={systemNavigators} />
+        {/* <TeamSection title="System Navigators" members={systemNavigators} /> */}
         
         
-        <TeamSection title="Hackathon Elves" members={hackathonElves} />
+        {/* <TeamSection title="Hackathon Elves" members={hackathonElves} /> */}
       </div>
     </section>
   );
