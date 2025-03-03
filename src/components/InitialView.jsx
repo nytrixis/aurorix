@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import "./InitialView.css";
 import hogwartsVideo from '../assets/hogwarts.mp4';
 import gsap from 'gsap';
+import backgroundAudio from '../assets/audio.mp3';
+
 
 
 const SmokeEffect = () => {
@@ -56,20 +58,31 @@ const SmokeEffect = () => {
   
 
 
-const InitialView = ({ onComplete }) => {
-  const [showTitle, setShowTitle] = useState(false);
-
-  useEffect(() => {
-    const titleTimeout = setTimeout(() => {
-      setShowTitle(true);
-    }, 8000);
-    const endTimeout = setTimeout(onComplete, 13000);
-
-    return () => {
-      clearTimeout(titleTimeout);
-      clearTimeout(endTimeout);
-    };
-  }, [onComplete]);
+  const InitialView = ({ onComplete }) => {
+    const [showTitle, setShowTitle] = useState(false);
+    const audioRef = useRef(null);
+  
+    useEffect(() => {
+      const playAudio = () => {
+        if (audioRef.current) {
+          audioRef.current.volume = 0.5;
+          audioRef.current.play().catch(err => console.log("Audio playback failed:", err));
+        }
+      };
+  
+      document.addEventListener('click', playAudio);
+      
+      const titleTimeout = setTimeout(() => {
+        setShowTitle(true);
+      }, 8000);
+      const endTimeout = setTimeout(onComplete, 13000);
+  
+      return () => {
+        document.removeEventListener('click', playAudio);
+        clearTimeout(titleTimeout);
+        clearTimeout(endTimeout);
+      };
+    }, [onComplete]);
 
   return (
     <div className="initial-view">
@@ -83,6 +96,18 @@ const InitialView = ({ onComplete }) => {
         type="video/mp4"
         className="intro-video"
       />
+
+<audio
+  src={backgroundAudio}
+  autoPlay
+  loop
+  className="hidden"
+  crossOrigin="anonymous"
+  referrerPolicy="strict-origin-when-cross-origin"
+>
+  Your browser does not support the audio element.
+</audio>
+
 
       {/* Title Overlay */}
       {showTitle && (
@@ -126,6 +151,18 @@ const InitialView = ({ onComplete }) => {
   </motion.div>
   </>
 )}
+
+<motion.button
+  className="absolute bottom-12 right-12 px-8 py-4 bg-violet-900/50 backdrop-blur-md border-2 border-violet-500/40 rounded-lg text-violet-200 font-almendra text-xl hover:bg-violet-500/40 hover:scale-105 transition-all duration-300 shadow-lg shadow-violet-900/30"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1 }}
+  onClick={onComplete}
+>
+  Skip Intro →
+</motion.button>
+
+
 
     </div>
   );

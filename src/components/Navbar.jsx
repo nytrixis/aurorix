@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 import heading from '../assets/heading2.png';
 
 const Navbar = () => {
-  const scrollLinks = ['Schedule', 'Venue', 'Prizes', 'Tracks', 'Sponsors', 'Contact Us'];
+  const scrollLinks = ['Schedule', 'Venue', 'Prizes', 'Tracks', 'Sponsors', 'Contact'];
   const location = useLocation();
   const isHomePage = location.pathname === '/';
 

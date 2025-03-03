@@ -47,7 +47,7 @@ const Footer = () => {
               ))}
             </div>
             <p className="font-almendra text-gray-300">
-              Email: contact@aurorix.com
+              Email: aurorixch1@gmail.com
             </p>
           </div>
         </div>
