@@ -104,25 +104,25 @@ const Sponsors = () => {
             viewport={{ once: true }}
           >
             <SponsorTier
-              title="🏆 PLATINUM SPONSORS"
+              title="PHILOSOPHER'S STONE"
               sponsors={[]}
               size="large"
             />
             
             <SponsorTier
-              title="⭐ GOLD SPONSORS"
+              title="GOLDEN SNITCH"
               sponsors={goldSponsors}
               size="medium"
             />
             
             <SponsorTier
-              title="🥈 SILVER SPONSORS"
+              title="ELDER WAND"
               sponsors={[]}
               size="small"
             />
             
             <SponsorTier
-              title="🥉 BRONZE SPONSORS"
+              title="NUMBUS 2000"
               sponsors={[]}
               size="tiny"
             />
