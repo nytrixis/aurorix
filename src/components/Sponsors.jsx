@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import StarBackground from './Stars';
-import devfolioLogo from '../assets/devfolio.png';
+import devfolioLogo from '../assets/Devfolio.png';
 import polygonLogo from '../assets/polygon.png';
 import ethLogo from '../assets/ETHIndia.png';
 
