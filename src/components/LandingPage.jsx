@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import hero from '../assets/bg1.jpg';
 import { FaDiscord } from 'react-icons/fa';
@@ -11,6 +11,16 @@ import Sponsors from './Sponsors';
 // import { SiDevPost } from 'react-icons/si';
 
 const LandingPage = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <div className="flex flex-col">
     <div 
@@ -65,38 +75,25 @@ const LandingPage = () => {
 
 </motion.div>
 
-        <motion.div 
-          className="flex gap-6"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 1.5 }}
-        >
-          {/* Devfolio Button */}
-          <motion.button
-    className="group relative flex items-center gap-2 px-8 py-4 text-white rounded-lg font-almendra text-xl border-2 border-violet-500 overflow-hidden"
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-  >
-    <span className="absolute right-full w-full h-full bg-violet-500 group-hover:right-0 transition-all duration-300 ease-in-out" />
-    <span className="relative flex items-center gap-2 z-10">
-      
-      Register with Devfolio
-    </span>
-  </motion.button>
+<motion.div className="flex gap-6">
+      <div
+        className="apply-button"
+        data-hackathon-slug="aurorix"
+        data-button-theme="dark"
+        style={{ height: "44px", width: "312px" }}
+      ></div>
 
-          {/* Discord Button */}
-          <motion.button
-    className="group relative flex items-center gap-2 px-8 py-4 text-white rounded-lg font-almendra text-xl bg-[#5865F2] overflow-hidden"
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-  >
-    <span className="absolute left-full w-full h-full border-2 border-[#5865F2] bg-transparent group-hover:left-0 transition-all duration-300 ease-in-out" />
-    <span className="relative flex items-center gap-2 z-10">
-      <FaDiscord className="text-2xl" />
-      Join Discord
-    </span>
-  </motion.button>
-        </motion.div>
+      <motion.button
+        className="group relative flex items-center gap-2 px-8 py-4 text-white rounded-lg font-almendra text-xl bg-[#5865F2]"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+      >
+        <span className="relative flex items-center gap-2 z-10">
+          <FaDiscord className="text-2xl" />
+          Join Discord
+        </span>
+      </motion.button>
+    </motion.div>
       </motion.div>
       
     </div>
