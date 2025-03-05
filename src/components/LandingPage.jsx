@@ -78,7 +78,7 @@ const LandingPage = () => {
 <motion.div className="flex gap-6">
       <div
         className="apply-button"
-        data-hackathon-slug="aurorix"
+        data-hackathon-slug="aurorix-ch1"
         data-button-theme="dark"
         style={{ height: "44px", width: "312px" }}
       ></div>
