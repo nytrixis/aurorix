@@ -7,6 +7,7 @@ import Timeline from './Timeline';
 import Awards from './Awards';
 import StarBackground from './Stars';
 import Contactus from './Contactus';
+import Sponsors from './Sponsors';
 // import { SiDevPost } from 'react-icons/si';
 
 const LandingPage = () => {
@@ -348,55 +349,7 @@ id="tracks"
   </div>
 </motion.section>
 
-<motion.section
-id='sponsors'
-  className="min-h-screen relative flex items-center justify-center py-20 overflow-hidden"
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  transition={{ duration: 1 }}
-  viewport={{ once: true }}
-  style={{
-    
-    background: 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,7,48,1) 50%, rgba(99,38,166,1) 100%)'
-  }}
->
-<StarBackground />
-  <div className="max-w-5xl mx-auto">
-    <div className="flex flex-col items-center">
-      <div className="relative h-32 flex items-center justify-center mb-20">
-        <motion.h2
-          className="text-[120px] font-bold text-white/5 absolute pointer-events-none whitespace-nowrap"
-          initial={{ opacity: 0, scale: 1.3 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.2 }}
-          viewport={{ once: true }}
-        >
-          MEET OUR
-        </motion.h2>
-
-        <motion.h3
-          className="text-4xl font-almendra text-violet-400 text-center relative z-10"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          viewport={{ once: true }}
-        >
-          SPONSORS
-        </motion.h3>
-      </div>
-      <motion.h3
-          className="text-7xl font-harryp text-violet-400 text-center relative z-10"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          viewport={{ once: true }}
-        >
-          TO BE DECLARED
-        </motion.h3>
-    </div>
-    
-  </div>
-</motion.section>
+<Sponsors />
 
 <Contactus />
 </div>
